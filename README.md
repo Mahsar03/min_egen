@@ -30,7 +30,6 @@ tilgjengelighet og brukervennlighet på ulike nettsteder. Oppgaven vår var å -
 
 > «Utvikle en løsning som gjør det enkelt for testere og andre brukere å melde inn problemer
 med nettsteder, og som samtidig ivaretar universell utforming og god brukeropplevelse.»
-<img width="1783" height="985" alt="velkommen:side" src="https://github.com/user-attachments/assets/d5eb27de-6b1c-499a-9294-9f650f62cd7d" />
 
 I starten av semesteret hadde vi flere møter med veilederen vår, **Mikael Snaprud**, hvor vi --->
 - avklarte forventninger til praksisperioden
@@ -65,6 +64,9 @@ Brukerreisen gjenspeiler sidene som er vist i skjermbildene:
    - To tydelige knapper:
      - **«Send inn issue»** – tar brukeren direkte til skjemaet.
      - **«Les mer»** – forklarer formålet med løsningen og hvordan dataen håndteres.
+       
+       <img width="1783" height="985" alt="velkommen:side" src="https://github.com/user-attachments/assets/1a7df118-b33a-4271-9ecd-a301391cc37c" />
+
 
 2. **Skjema – “Meld inn din sak”**
    - Felt 1: **Beskrivelse*** – hva er problemet, hva prøvde du å gjøre, hva skjedde?
@@ -73,19 +75,34 @@ Brukerreisen gjenspeiler sidene som er vist i skjermbildene:
    - Brukeren kan:
      - gå tilbake til forsiden
      - eller **«Send inn»** for å gå videre.
+       
+       <img width="1774" height="967" alt="meldeinnsak" src="https://github.com/user-attachments/assets/98a52fc8-75f5-4574-8d0e-583a9956c47d" />
+
 
 3. **Oppsummering – “Oppsummering”**
    - Viser en oppsummering av alle feltene, slik at brukeren kan kontrollere innholdet.
    - To knapper:
      - **«Endre skjema»** – gå tilbake og rette.
      - **«Bekreft og send inn»** – oppretter GitHub-issue.
+       
+       <img width="1778" height="976" alt="oppsummering" src="https://github.com/user-attachments/assets/0cd5c700-2630-4bed-bb20-911edc68d2f2" />
+
 
 4. **Bekreftelse – “Takk for din innsending!”**
    - Bekreftelse på at saken er sendt inn.
    - Viser e-posten brukeren ev. oppga.
    - Knapp for å gå tilbake til Fix-forsiden.
+     
+     <img width="1923" height="951" alt="TakkForInnsending" src="https://github.com/user-attachments/assets/23573be7-8486-478b-aefa-cbf8fee8959d" />
+
+     
 
 5. **På GitHub**
+   
+   <img width="1918" height="957" alt="issues" src="https://github.com/user-attachments/assets/37758419-b95c-4de3-bd60-a04aed996698" />
+
+   <img width="1904" height="941" alt="legge in kommentar" src="https://github.com/user-attachments/assets/9a281cbd-2f95-42a9-87b0-c0090517fa96" />
+   
    - Det opprettes en ny issue med tittel **«Brukerinnsendt sak»**.
    - Body inneholder:
      - **Beskrivelse**
@@ -95,6 +112,9 @@ Brukerreisen gjenspeiler sidene som er vist i skjermbildene:
      - legge til labels (f.eks. `bug`)
      - kommentere med forslag til fix/oppskrift
      - lukke saken som **completed** når den er håndtert.
+       
+       <img width="1904" height="941" alt="legge in kommentar" src="https://github.com/user-attachments/assets/000366e5-b0e1-4fa7-8f26-162a72871136" />
+
 
 Denne flyten gir:
 - trygghet for brukeren (de ser hva som sendes inn)
