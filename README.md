@@ -3,8 +3,8 @@ _IS-302 Praksisprosjekt høst 2025_
 
 Dette repoet inneholder praksisprosjektet vårt i emnet **IS-302 Praksisprosjekt**, gjennomført hos  
 **Tingtun AS** i samarbeid med **Testfest**. Prosjektet handler om å utvikle en løsning der testere og brukere
-enkelt kan melde inn problemer («issues») de møter på nettsteder – med spesielt fokus på
-**universell utforming** og **brukervennlighet**. :contentReference[oaicite:0]{index=0}
+enkelt kan melde inn problemer eller issues de møter på nettsteder – med spesielt fokus på
+**universell utforming** og **brukervennlighet**.
 
 ---
 
@@ -32,10 +32,10 @@ tilgjengelighet og brukervennlighet på ulike nettsteder. Oppgaven vår var å:
 > «Utvikle en løsning som gjør det enkelt for testere og andre brukere å melde inn problemer
 med nettsteder, og som samtidig ivaretar universell utforming og god brukeropplevelse.»
 
-I starten av semesteret hadde vi flere møter med veilederen vår, **Mikael Snaprud**, hvor vi:
+I starten av semesteret hadde vi flere møter med veilederen vår, **Mikael Snaprud**, hvor vi --->
 - avklarte forventninger til praksisperioden
 - fikk innføring i Testfest og eksisterende nettsider
-- diskuterte roller, funksjonalitet og krav til universell utforming :contentReference[oaicite:1]{index=1}
+- diskuterte roller, funksjonalitet og krav til universell utforming
 
 Vi bestemte oss for å lage en egen **Fix-side** som knytter innmeldte issues direkte til GitHub,
 slik at Tingtun og andre utviklere kan jobbe videre med sakene der.
