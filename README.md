@@ -19,15 +19,13 @@ enkelt kan melde inn problemer eller issues de møter på nettsteder – med spe
 - [Universell utforming og brukervennlighet](#universell-utforming-og-brukervennlighet)
 - [Prosess og arbeidsform](#prosess-og-arbeidsform)
 - [Læringspunkter og refleksjon](#læringspunkter-og-refleksjon)
-- [Komme i gang lokalt](#komme-i-gang-lokalt)
-- [Videre arbeid / Roadmap](#videre-arbeid--roadmap)
 
 ---
 
 ## Bakgrunn og mål
 
 Som praktikanter hos **Tingtun AS** fikk vi i oppdrag å bidra inn i prosjektet **Testfest**, som tester
-tilgjengelighet og brukervennlighet på ulike nettsteder. Oppgaven vår var å:
+tilgjengelighet og brukervennlighet på ulike nettsteder. Oppgaven vår var å --->
 
 > «Utvikle en løsning som gjør det enkelt for testere og andre brukere å melde inn problemer
 med nettsteder, og som samtidig ivaretar universell utforming og god brukeropplevelse.»
@@ -46,10 +44,10 @@ slik at Tingtun og andre utviklere kan jobbe videre med sakene der.
 
 ### Hovedidé
 
-Løsningen vår består av en enkel, universelt utformet webapplikasjon hvor:
+Løsningen vår består av en enkel, universelt utformet webapplikasjon --->
 
 - **Testere/brukere** kan sende inn en sak (issue) uten å måtte logge inn
-- De fyller inn:
+- De fyller inn blant annet --->
   1. **Beskrivelse** av problemet
   2. **Anbefalt handling** – hvordan de mener det burde fungere
   3. **E-postadresse (valgfritt)** for å kunne få bekreftelse og oppfølging
@@ -102,7 +100,7 @@ Denne flyten gir:
 
 ### Roller i løsningen
 
-I prosjektdagboken har vi jobbet eksplisitt med tre roller som grunnlag for designet: :contentReference[oaicite:2]{index=2}
+I prosjektdagboken har vi jobbet eksplisitt med tre roller som grunnlag for designet --->
 
 - **Tester (ingen innlogging)**  
   - Kan melde inn issues anonymt eller med e-post  
@@ -123,7 +121,7 @@ blir registrert og håndterbare i GitHub. De øvrige rollene er designet og plan
 
 ## Teknologi og arkitektur
 
-Prosjektet er bygget som en webapplikasjon med følgende hovedkomponenter: :contentReference[oaicite:3]{index=3}
+Prosjektet er bygget som en webapplikasjon med følgende hovedkomponenter --->
 
 - **Frontend**
   - Responsivt skjema og navigasjon tilpasset desktop og mobil
@@ -139,7 +137,7 @@ Prosjektet er bygget som en webapplikasjon med følgende hovedkomponenter: :cont
 ### GitHub som databasesystem
 
 I løpet av prosjektet evaluerte vi først tradisjonelle databasesystem som **MariaDB** og
-**MySQL**. Senere valgte vi bevisst å bruke **GitHub Issues som vår “database”**. :contentReference[oaicite:4]{index=4}
+**MySQL**. Senere valgte vi bevisst å bruke **GitHub Issues som vår “database”**.
 
 **Hvorfor GitHub?**
 
@@ -181,7 +179,7 @@ selv om det ikke er en tradisjonell relasjonsdatabase.
 
 Et hovedmål med prosjektet har vært å følge prinsipper for **universell utforming** og
 **god UX** – både fordi det er viktig i Testfest-prosjektet, og fordi vi ønsket å trene på
-å omsette teori fra studiet til praksis. :contentReference[oaicite:5]{index=5}
+å omsette teori fra studiet til praksis.
 
 ### Visuell profil og fargepalett
 
@@ -192,11 +190,11 @@ Et hovedmål med prosjektet har vært å følge prinsipper for **universell utfo
   - fargekombinasjoner med dårlig kontrast
 - Tekst er primært mørk på lys bakgrunn for å gi god lesbarhet.
 - Vi jobbet eksplisitt med en fargepalett og tok hensyn til synshemmede og fargeblinde
-  (kontrast, tydelige knapper, enkel typografi). :contentReference[oaicite:6]{index=6}
+  (kontrast, tydelige knapper, enkel typografi).
 
 ### Struktur og navigasjon
 
-I loggen fra Testfest-inspirasjon og analyse av eksisterende Testfest-side identifiserte vi bl.a.: :contentReference[oaicite:7]{index=7}
+I loggen fra Testfest-inspirasjon og analyse av eksisterende Testfest-side identifiserte vi bl.a. --->
 
 - problemer med lang, ustrukturert tekst
 - lite tydelig navigasjon
@@ -219,14 +217,14 @@ Skjemaet er bygget for å være:
 
 Vi fikk også praktisk erfaring med universell utforming under den faktiske **Testfesten**
 sammen med **Blindeforbundet og NLA**, der vi observerte hvordan ulike brukere arbeidet
-med nettsteder og hvilke barrierer de møtte. Dette påvirket både språk, struktur og designvalg. :contentReference[oaicite:8]{index=8}
+med nettsteder og hvilke barrierer de møtte. Dette påvirket både språk, struktur og designvalg. 
 
 ---
 
 ## Prosess og arbeidsform
 
 Vi har hatt en systematisk arbeidsform gjennom hele semesteret, dokumentert i
-**prosjektdagboken**. :contentReference[oaicite:9]{index=9}
+**prosjektdagboken**.
 
 Noen nøkkelpunkter:
 
@@ -251,7 +249,7 @@ Denne strukturen hjalp oss med å holde oversikt, justere kurs underveis og ha g
 
 ## Læringspunkter og refleksjon
 
-I oppsummeringen av praksisprosjektet trekker vi spesielt frem følgende læringspunkter: :contentReference[oaicite:10]{index=10}
+I oppsummeringen av praksisprosjektet trekker vi spesielt frem følgende læringspunkter. --->
 
 - **Fra idé til konkret løsning**  
   Vi startet med mange store og ambisiøse ideer (flere roller, avansert datamodell, oversettelse,
@@ -276,19 +274,4 @@ I oppsummeringen av praksisprosjektet trekker vi spesielt frem følgende læring
 Alt i alt har prosjektet gitt oss erfaring som vi tar med videre til både bacheloroppgave
 og arbeidsliv – spesielt når det gjelder samspill mellom teknologi, mennesker og organisasjon.
 
----
-
-## Komme i gang lokalt
-
-> NB: Tilpass denne delen til hvordan repoet deres faktisk er satt opp (prosjektmappe, navn på løsning osv.).
-
-1. **Forutsetninger**
-   - [ ] .NET SDK installert (versjon X.Y eller nyere)
-   - [ ] Git installert
-   - [ ] GitHub-konto og **Personal Access Token** med rettighet til å opprette issues i valgt repo
-
-2. **Klon repoet**
-
-   ```bash
-   git clone https://github.com/<org>/<repo-navn>.git
-   cd <repo-navn>
+-
