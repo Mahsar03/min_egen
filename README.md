@@ -30,6 +30,7 @@ tilgjengelighet og brukervennlighet på ulike nettsteder. Oppgaven vår var å -
 
 > «Utvikle en løsning som gjør det enkelt for testere og andre brukere å melde inn problemer
 med nettsteder, og som samtidig ivaretar universell utforming og god brukeropplevelse.»
+<img width="1783" height="985" alt="velkommen:side" src="https://github.com/user-attachments/assets/d5eb27de-6b1c-499a-9294-9f650f62cd7d" />
 
 I starten av semesteret hadde vi flere møter med veilederen vår, **Mikael Snaprud**, hvor vi --->
 - avklarte forventninger til praksisperioden
