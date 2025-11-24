@@ -19,6 +19,7 @@ enkelt kan melde inn problemer eller issues de møter på nettsteder – med spe
 - [Universell utforming og brukervennlighet](#universell-utforming-og-brukervennlighet)
 - [Prosess og arbeidsform](#prosess-og-arbeidsform)
 - [Læringspunkter og refleksjon](#læringspunkter-og-refleksjon)
+- [Komme i gang](#komme-i-gang)
 
 ---
 
@@ -129,9 +130,9 @@ Prosjektet er bygget som en webapplikasjon med følgende hovedkomponenter --->
   - Formularvalidering og stegvis flyt (skjema → oppsummering → bekreftelse)
 
 - **Backend**
-  - **ASP.NET Core Web API** (som loggført i prosjektdagboken)
+  - ***Github API*** (som loggført i prosjektdagboken)
   - Endepunkt som tar imot skjema-data fra frontend
-  - Integrasjon mot **GitHub API** for å opprette issues i et valgt repository
+  - Integrasjon mot ***GitHub API*** for å opprette issues i et valgt repository
   - Enkel feilhåndtering og tilbakemelding til frontend
 
 ### GitHub som databasesystem
@@ -274,4 +275,30 @@ I oppsummeringen av praksisprosjektet trekker vi spesielt frem følgende læring
 Alt i alt har prosjektet gitt oss erfaring som vi tar med videre til både bacheloroppgave
 og arbeidsliv – spesielt når det gjelder samspill mellom teknologi, mennesker og organisasjon.
 
--
+## Komme i gang
+
+- **Komme i gang**
+
+1. Klon prosjektet:
+   git clone https://github.com/hltnina/Testfest_praksisprosjekt.git
+
+2. Installer nødvendige verktøy (hvis ikke installert fra før):
+   - .NET SDK 6 eller nyere
+   - Git
+
+5. Start prosjektet lokalt:
+   dotnet run
+
+6. Åpne nettsiden i nettleseren:
+   - Kopier URL-en som vises i terminalen (for eksempel https://localhost:5070)
+   - Lim den inn i nettleseren og åpne siden
+
+7. Test løsningen direkte på nettsiden:
+   - Klikk “Send inn issue”
+   - Fyll inn beskrivelse, anbefalt handling og evt. e-post
+   - Gå videre til oppsummering
+   - Bekreft og send inn
+
+8. Sjekk om innsendingen fungerte:
+   Gå til https://github.com/hltnina/Testfest_praksisprosjekt/issues
+   - Du skal nå se en ny issue med innholdet du skrev inn på nettsiden.
